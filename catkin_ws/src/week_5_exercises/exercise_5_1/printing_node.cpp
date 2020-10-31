@@ -7,10 +7,15 @@ void print_value(const std::string& str){
 
 int main(int argc, char** argv){
     ros::init(argc, argv, "printing_node");
-    // ros::init(argc, argv, "printing_node.cpp");
     ros::NodeHandle p_nh = ros::NodeHandle("~");
+    
+    std::string s;
+    p_nh.getParam("print_message", s);
 
-    for (int i=0; i<5; i++){
-        print_value("You should see this 5 times!");
+    int number;
+    p_nh.getParam("print_times", number);
+
+    for (int i=0; i<number; i++){
+        print_value(s);
     }
 }
