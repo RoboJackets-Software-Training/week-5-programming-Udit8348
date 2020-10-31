@@ -3,8 +3,12 @@
     <node pkg="week_5_exercises" type="printing_node" name="test_launch_node" output="screen">
         <!-- make the aribtrary values changable params instead-->
         <!-- benefit of params: once you have it setup correctly, you dont need to recompile after updating params-->
-        <param name="print_message" value="Hello from Udit - do i need to recompile"/>
-        <param name="print_times" value="10"/>
+        
+        <!-- <param name="print_message" value="Hello from Udit - :)"/> -->
+        <!-- <param name="print_times" value="10"/> -->
     
+        <!-- Instead of using param tags, we will use the rosparam tag to `load` from a  file -->
+        <rosparam command="load" file="$(find week_5_exercises)/config/node_config.yaml"/>
+
     </node>
 </launch>
