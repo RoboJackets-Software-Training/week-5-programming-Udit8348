@@ -1,0 +1,2 @@
+buzzsim/buzzsim:week_5_exercises
+-DCATKIN_DEVEL_PREFIX=/home/vagrant/RoboJackets/software-training/week-5-programming-Udit8348/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vagrant/RoboJackets/software-training/week-5-programming-Udit8348/catkin_ws/install -G Unix Makefiles

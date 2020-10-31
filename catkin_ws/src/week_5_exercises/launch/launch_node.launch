@@ -1,0 +1,6 @@
+<!-- THIS IS A COMMENT -->
+<launch>
+    <node pkg="week_5_exercises" type="printing_node" name="test_launch_node" output="screen">
+    
+    </node>
+</launch>
