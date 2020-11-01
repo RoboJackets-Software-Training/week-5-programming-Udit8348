@@ -1,0 +1,7 @@
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="buzzsim"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/vagrant/RoboJackets/software-training/week-5-programming-Udit8348/catkin_ws/build/BuzzSim/catkin_ws/src/buzzsim/buzzsim/include/buzzsim/moc_app.cpp
+/home/vagrant/RoboJackets/software-training/week-5-programming-Udit8348/catkin_ws/src/BuzzSim/catkin_ws/src/buzzsim/buzzsim/include/buzzsim/app.h
